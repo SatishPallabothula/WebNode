@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Satish Pallabothula Resume</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class ="h400" id="navbar">
+             <div id="about">
+              <span id="me">SATISH PALLABOTHULA <br> spall6@unh.newhaven.edu</br></span> 
+             </div>
+            <div id = "menu">
+                <a class="gray-bg" href="#aboutme"> About Me </a>
+                <a class="gray-bg" href="#Education"> Education </a>
+                <a class="gray-bg" href="#Projects"> Projects </a>
+                <a class="gray-bg" href="#Experience"> Experience </a>             
+                <a class="gray-bg" href="#Blogs"> Blogs </a>
+                
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="h400" id="aboutme">
+          <b>ABOUT ME</b> 
+            <p> I am Satish Pallabothula pursuing masters in computer and information sciences from university of New Haven. I will be graduating by December 2022.After completion of my bachelors I worked as business development associate for BYJU'S over the period of two years.I am interested in higher studies,While working in BYJU's I have started process for Masters which helps to gain more knowledge which will be helpful for my career. My hobbies are travelling,watching movies. </p>
+        </div>
+        
+        <div class="h400" id="Education">
+            <b>EDUCATION</b>
+            <p>BACHELORS</p>
+                <LI><b> Course:</b> computer science and engineering  </LI>
+                <LI><b> Duration:</b> 2015 to 2019   </LI>
+                <LI><b>College Name :</b>Gudlavalleru Engineering College   </LI>
+                <LI><b>Location :</b>Gudivada, INDIA  </LI>
+
+                <P>MASTERS</P> 
+                <LI><b>Course :</b>computer and information Technology </LI>
+                <LI><b>Duration:</b>2021 to 2022  </LI>
+                <LI><b>University Name:</b>University of New Haven  </LI>
+                <LI><b>Location :</b>New Haven, USA  </LI>
+        </div>
+
+        <div class="h400" id="Projects">
+           <b>PROJECTS</b> 
+            <p><li>MAIN PROJECT</li></p>
+            <b>TITLE:</b>“Cluster Based Zoning Of Crime Information” 
+           <p> <b>Description:</b> A report compiled by the World Health Organization stated that
+                more  than 50 percent of citizens around the world have been victims of 
+                criminal activity. The police are not able to help, as information about the 
+                crime does not reach them in time. we use cluster technique of k-means 
+                algorithm on criminal dataset of India for crime analysis and we knn-classification  
+                algorithm for crime prediction. The cluster output of PYTHON is passed manually as input to MyCustom map to show high,medium,low crime rates.
+                The crime trend and zoning knowledge can also be helpful in cautioning police to increments and reductions in levels of preventive actions.</p>
+            
+            <p><li>MINI PROJECT</li></p>
+            <b>TITLE:</b>"Online Training And Placement CelL"
+            <p><b>Description:</b>This is a Web based application which shows the Training and Placement Cell simplify Students to know about previous company details and question papers.</p>
+        </div>
+
+        <div class="h400" id="Experience">
+        <b>EXPERIENCE</b><br>
+            <ul>
+            <LI><b>Company :</b>BYJU's </b></LI>
+            <LI><b>Role:</b>Business Dovelopment Associate  </LI>
+            <LI><b>Duration :</b>2019 to 2021 </LI>
+            <LI><b>Location :</b>Hyderabad  </LI>
+            </ul>
+        </div>
+
+        <div class="h400" id="Blogs">
+           <b>BLOGS</b> 
+            <br>Till now i don't have any blogs</br>
+
+        </div>
+
+        <div class="h400" id="contact">
+           <b>CONTACT</b>
+           <p>
+            Satish Pallabothula<br>New Haven<br>USA<br>email: spall6@unh.newhaven.edur<br>phone no: 551-430-9940
+          </p>
+          <a href ="https://www.linkedin.com/"   class= "fa fa-linkedin-square" style="font-size:40px"></a>
+        </div>
+    </body>
+    <style>
+    .gray-bg{
+        color:brown;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .h400{
+        
+    }
+    #navbar{
+          background-color: violet;
+          height:100%;
+          margin-left: 15px;
+          display:grid;
+          float:inherit;
+    }
+    #menu{
+        padding-top: 5px;
+        margin-bottom: 20px;
+        text-align:center;
+    
+    }
+    #about{
+        text-align: left;
+        height:10px;
+        scroll-padding-top: 15px;
+    }
+    .h400{
+        height:100%;
+        background-color: yellowgreen;
+        margin: 20px;
+        padding: 10px;
+    
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "aboutme"
+            "Education"
+            "Projects"
+            "Experience"
+            "Blogs"
+            "contact"
+            gap 0.5 em;
+    }
+    #aboutme{
+        height:100%;
+    }
+    #Education{
+        height: 100%;
+    }
+    #Projects{
+        height: 100%;
+    }
+    #Experience{
+        height:100%;
+    }
+    #mail{
+        text-align: left;
+    }
+    #Blogs{
+        height:100%;
+    }
+    #contact{
+        height:100%;
+    }
+    #name{
+        font-size: 15px;
+        display: block;
+        color:black;
+    }
+    .fa-linkedin {
+        background: rgb(4, 4, 117);
+        color: white;
+        padding: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    @media screen and (max-width:100px){
+        .navbar{
+            float:none;
+            display:block;
+        }
+        .h400{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas: "aboutme"
+            "Education"
+            "Projects"
+            "Experience"
+            "Blogs"
+            "contact"
+            gap 0.5 em;
+        }
+    }
+    </style>
+</html>
